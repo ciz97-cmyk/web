@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obchodní podmínky | Build & Trade Partners s.r.o.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styly.css">
+    <style>
+        .terms-section {
+            padding: 8rem 3rem 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .terms-header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .terms-header .section-label {
+            margin-bottom: 0.75rem;
+        }
+        .terms-header h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+        }
+        .terms-header .terms-meta {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        .terms-content {
+            color: var(--text);
+            line-height: 1.8;
+            font-size: 15px;
+        }
+        .terms-content h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--white);
+            margin: 3rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .terms-content h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--white);
+            margin: 2rem 0 0.75rem;
+        }
+        .terms-content p {
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+        }
+        .terms-content ul, .terms-content ol {
+            margin: 1rem 0 1rem 1.5rem;
+            color: var(--text-muted);
+        }
+        .terms-content li {
+            margin-bottom: 0.5rem;
+        }
+        .terms-content strong {
+            color: var(--white);
+        }
+        .terms-content hr {
+            border: none;
+            border-top: 1px solid var(--border-subtle);
+            margin: 2.5rem 0;
+        }
+        .terms-content .highlight-box {
+            background: #111418;
+            border: 1px solid rgba(62,192,106,0.25);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+        }
+        .terms-content .highlight-box p {
+            margin: 0;
+            color: var(--text);
+        }
+        .terms-content .highlight-box strong {
+            color: var(--green);
+        }
+        .terms-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            color: var(--text-muted);
+        }
+        .terms-footer .company-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+            font-size: 14px;
+        }
+        .terms-footer .company-info strong {
+            color: var(--white);
+        }
+        .terms-footer .tagline {
+            color: var(--green);
+            font-weight: 600;
+        }
+        
+        @media (max-width: 640px) {
+            .terms-section {
+                padding: 6rem 1.25rem 3rem;
+            }
+            .terms-header .terms-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .terms-footer .company-info {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="logo">
+        <img src="logo.svg" alt="Build & Trade Partners" class="logo-icon">
+        <div class="logo-text">
+            <strong>Build & Trade</strong>
+            <span>Partners</span>
+        </div>
+    </a>
+    <ul class="nav-links">
+        <li><a href="index.html#nabidka">Nabídka</a></li>
+        <li><a href="index.html#o-nas">O nás</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>
+        <li class="nav-divider"></li>
+        <li><a href="podminky.html" style="color: var(--green);">Obchodní podmínky</a></li>
+    </ul>
+    <a href="tel:+420775929441" class="nav-phone">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        +420 775 929 441
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<section class="terms-section">
+    <header class="terms-header">
+        <span class="section-label">Obchodní podmínky</span>
+        <h1>Obchodní podmínky<br><em>Build & Trade Partners s.r.o.</em></h1>
+        <div class="terms-meta">
+            <span><strong>Účinné od:</strong> 11. 9. 2026</span>
+            <span><strong>Verze:</strong> 1.0</span>
+        </div>
+    </header>
+
+    <div class="terms-content">
+        <h2>1. Základní ustanovení</h2>
+        <p>1.1. Tyto obchodní podmínky upravují podmínky používání internetových stránek společnosti <strong>Build & Trade Partners s.r.o.</strong> a základní pravidla pro komunikaci se zájemci o služby společnosti.</p>
+        <p>1.2. Společnost působí v oblasti nemovitostí a zaměřuje se zejména na prodej a koupi nemovitostí, přímý výkup nemovitostí, investiční příležitosti, pronájem garáží a orientační oceňování nemovitostí.</p>
+        <p>1.3. Společnost působí zejména v <strong>Ostravě a Moravskoslezském kraji</strong>.</p>
+        <p>1.4. Tyto obchodní podmínky se vztahují zejména na používání webových stránek a na nezávazné poptávky zaslané prostřednictvím kontaktního formuláře. Konkrétní podmínky jednotlivých realitních služeb se řídí příslušnou smlouvou uzavřenou mezi společností a klientem.</p>
+
+        <hr>
+
+        <h2>2. Provozovatel webových stránek</h2>
+        <p><strong>Obchodní firma:</strong> Build & Trade Partners s.r.o.<br>
+        <strong>Telefon:</strong> +420 775 929 441<br>
+        <strong>Oblast působnosti:</strong> Ostrava a Moravskoslezský kraj</p>
+
+        <hr>
+
+        <h2>3. Služby společnosti</h2>
+        <p>Společnost prostřednictvím svých internetových stránek prezentuje zejména následující služby:</p>
+        
+        <h3>3.1. Prodej nemovitosti</h3>
+        <p>Společnost zajišťuje proces spojený s prodejem nemovitosti a zastupováním prodávajícího.</p>
+        
+        <h3>3.2. Koupě nemovitosti</h3>
+        <p>Společnost vyhledává zajímavé nemovitosti a investiční příležitosti pro zájemce o koupi.</p>
+        
+        <h3>3.3. Pronájem garáží</h3>
+        <p>Společnost nabízí k pronájmu garáže v Ostravě a okolí.</p>
+        
+        <h3>3.4. Ocenění nemovitosti</h3>
+        <p>Společnost nabízí možnost získat orientační ocenění nemovitosti bez poplatku.</p>
+        <div class="highlight-box">
+            <p><strong>Důležité:</strong> Ocenění prezentované prostřednictvím webových stránek představuje orientační stanovení tržní hodnoty a nenahrazuje znalecký posudek, není-li výslovně sjednáno jinak. Konkrétní rozsah poskytované služby a případná odměna se vždy řídí individuální dohodou nebo příslušnou smlouvou.</p>
+        </div>
+        <p>Tyto služby jsou na webových stránkách prezentovány jako čtyři hlavní možnosti pro zájemce.</p>
+
+        <hr>
+
+        <h2>4. Nezávazná poptávka</h2>
+        <p>4.1. Zájemce může prostřednictvím kontaktního formuláře odeslat společnosti nezávaznou poptávku.</p>
+        <p>4.2. Formulář umožňuje vybrat jednu z následujících možností:</p>
+        <ul>
+            <li>Chci prodat nemovitost</li>
+            <li>Chci koupit nemovitost</li>
+            <li>Pronájem garáží</li>
+            <li>Ocenění nemovitosti zdarma</li>
+        </ul>
+        <p>4.3. Pro odeslání formuláře jsou požadovány zejména:</p>
+        <ul>
+            <li>jméno a příjmení</li>
+            <li>telefonní číslo</li>
+            <li>e-mailová adresa</li>
+        </ul>
+        <p>Zájemce může dále uvést lokalitu nemovitosti a stručný popis nebo poznámku.</p>
+        <p>4.4. Odesláním formuláře <strong>nevzniká automaticky smlouva o realitním zprostředkování ani jiná smlouva</strong>, pokud není následně uzavřena samostatná smlouva.</p>
+        <p>4.5. Společnost deklaruje, že na poptávku reaguje zpravidla do 24 hodin. Tato doba je orientační a nepředstavuje zaručenou lhůtu pro vyřízení požadavku.</p>
+
+        <hr>
+
+        <h2>5. Uzavření smlouvy o realitním zprostředkování</h2>
+        <p>5.1. Pokud má být mezi společností a zájemcem poskytováno realitní zprostředkování, musí být uzavřena samostatná smlouva o realitním zprostředkování.</p>
+        <p>5.2. Smlouva o realitním zprostředkování musí být uzavřena písemně.</p>
+        <p>5.3. Smlouva musí obsahovat zákonem požadované náležitosti, zejména označení předmětu převodu nebo užívání, výši kupní ceny, nájemného nebo způsob jejich určení a výši provize nebo způsob jejího určení.</p>
+        <p>5.4. Samotné vyplnění kontaktního formuláře na webových stránkách proto nepředstavuje uzavření smlouvy o realitním zprostředkování.</p>
+
+        <hr>
+
+        <h2>6. Odměna a provize</h2>
+        <p>6.1. Webové stránky nestanovují jednotný ceník realitních služeb.</p>
+        <p>6.2. Konkrétní výše provize nebo jiné odměny je proto sjednávána individuálně v příslušné smlouvě.</p>
+        <p>6.3. Před uzavřením smlouvy bude klient seznámen s výší provize nebo způsobem jejího určení.</p>
+        <p>6.4. Za samotné odeslání nezávazné poptávky prostřednictvím webového formuláře není účtován poplatek, pokud nebylo s klientem výslovně dohodnuto jinak.</p>
+        <p>6.5. U spotřebitele se splatnost provize řídí příslušnými ustanoveními zákona o realitním zprostředkování. Zákon například upravuje případy, kdy může být provize splatná před uzavřením realitní smlouvy, a omezuje výši zálohy na provizi u spotřebitele.</p>
+
+        <hr>
+
+        <h2>7. Právní servis</h2>
+        <p>7.1. Společnost na svých webových stránkách uvádí, že klientům zajišťuje kompletní právní servis, jednání s katastrem nemovitostí a další činnosti související s bezpečným dokončením realitní transakce.</p>
+        <p>7.2. Pokud jsou právní služby poskytovány prostřednictvím externího advokáta nebo jiné oprávněné osoby, řídí se jejich poskytování příslušným právním vztahem mezi klientem a poskytovatelem právních služeb.</p>
+
+        <hr>
+
+        <h2>8. Advokátní úschova</h2>
+        <p>8.1. Společnost na webových stránkách uvádí možnost zajištění <strong>advokátní úschovy finančních prostředků</strong> v souvislosti s realitními transakcemi.</p>
+        <p>8.2. Advokátní úschova se řídí samostatnou smlouvou o úschově a příslušnými právními předpisy.</p>
+        <p>8.3. Peněžní prostředky určené k advokátní úschově nejsou finančními prostředky společnosti a společnost s nimi nenakládá jako s vlastními prostředky.</p>
+        <p>8.4. Realitní zprostředkovatel může podle zákona zprostředkovat úschovu prostřednictvím banky, notáře nebo advokáta; pravidla pro úschovu jsou stanovena zákonem o realitním zprostředkování.</p>
+
+        <hr>
+
+        <h2>9. Informace o nemovitostech</h2>
+        <p>9.1. Informace, fotografie a další materiály zveřejněné na webových stránkách slouží k prezentaci služeb a nemovitostí.</p>
+        <p>9.2. Aktuální a závazné údaje o konkrétní nemovitosti jsou vždy rozhodující v rámci konkrétního smluvního vztahu a příslušné dokumentace.</p>
+        <p>9.3. Společnost může informace na webových stránkách průběžně měnit, aktualizovat nebo odstranit.</p>
+        <p>9.4. U realitního zprostředkování společnost plní informační povinnosti stanovené zákonem o realitním zprostředkování, včetně povinnosti informovat zájemce o známých závadách a omezeních váznoucích na předmětu převodu nebo užívání.</p>
+
+        <hr>
+
+        <h2>10. Povinnosti zájemce a klienta</h2>
+        <p>10.1. Zájemce je povinen při komunikaci se společností poskytovat pravdivé a aktuální informace.</p>
+        <p>10.2. Zájemce nesmí prostřednictvím webových stránek zasílat obsah, který je protiprávní, urážlivý, klamavý nebo který by mohl poškodit práva společnosti či třetích osob.</p>
+        <p>10.3. Klient je povinen poskytnout společnosti součinnost nezbytnou pro řádné poskytování sjednané služby.</p>
+
+        <hr>
+
+        <h2>11. Ochrana osobních údajů</h2>
+        <p>11.1. Kontaktní formulář na webových stránkách zpracovává osobní údaje zájemce v rozsahu potřebném pro vyřízení jeho poptávky.</p>
+        <p>11.2. Jedná se zejména o jméno a příjmení, telefonní číslo a e-mailovou adresu. Zájemce může dobrovolně uvést také lokalitu nemovitosti a další informace.</p>
+        <p>11.3. Při odeslání formuláře zájemce potvrzuje souhlas se zpracováním osobních údajů pro účely vyřízení poptávky v souladu s GDPR. Web uvádí, že údaje nejsou poskytovány třetím stranám.</p>
+        <p>11.4. Zpracování osobních údajů se řídí samostatnými zásadami ochrany osobních údajů, pokud jsou na webových stránkách zveřejněny.</p>
+
+        <hr>
+
+        <h2>12. Odstoupení spotřebitele</h2>
+        <p>12.1. Pokud je klient spotřebitelem a konkrétní smlouva je uzavřena prostřednictvím prostředků komunikace na dálku nebo mimo obchodní prostory, mohou mu podle povahy konkrétní smlouvy vzniknout práva na odstoupení od smlouvy podle občanského zákoníku.</p>
+        <p>12.2. Konkrétní podmínky odstoupení se posuzují podle druhu uzavřené smlouvy a okolností jejího uzavření.</p>
+        <p>12.3. Těmito obchodními podmínkami nejsou dotčena zákonná práva spotřebitele.</p>
+
+        <hr>
+
+        <h2>13. Reklamace a stížnosti</h2>
+        <p>13.1. Případnou reklamaci nebo stížnost může klient uplatnit prostřednictvím kontaktních údajů společnosti.</p>
+        <p>13.2. Pro rychlé vyřízení doporučujeme uvést jméno, kontaktní údaje, popis problému a případně informace o konkrétní službě nebo nemovitosti.</p>
+        <p>13.3. Reklamace budou vyřizovány v souladu s platnými právními předpisy a konkrétní smlouvou uzavřenou s klientem.</p>
+
+        <hr>
+
+        <h2>14. Mimosoudní řešení spotřebitelských sporů</h2>
+        <p>14.1. V případě spotřebitelského sporu, který se nepodaří vyřešit vzájemnou dohodou, může spotřebitel využít příslušný systém mimosoudního řešení spotřebitelských sporů.</p>
+        <p>14.2. Tím není dotčeno právo spotřebitele obrátit se na příslušný soud.</p>
+
+        <hr>
+
+        <h2>15. Autorská práva</h2>
+        <p>15.1. Webové stránky, jejich grafické zpracování, texty, logo, fotografie, ilustrace a další obsah mohou být chráněny autorským právem a dalšími právními předpisy.</p>
+        <p>15.2. Bez souhlasu oprávněné osoby není dovoleno obsah webových stránek neoprávněně kopírovat, upravovat, zveřejňovat nebo jinak využívat.</p>
+
+        <hr>
+
+        <h2>16. Změny obchodních podmínek</h2>
+        <p>16.1. Společnost může tyto obchodní podmínky aktualizovat zejména v souvislosti se změnou poskytovaných služeb, webových stránek nebo právních předpisů.</p>
+        <p>16.2. Pro konkrétní smluvní vztah jsou rozhodující podmínky sjednané v příslušné smlouvě a právní předpisy účinné v době vzniku daného právního vztahu.</p>
+
+        <hr>
+
+        <h2>17. Závěrečná ustanovení</h2>
+        <p>17.1. Tyto obchodní podmínky se řídí právním řádem České republiky.</p>
+        <p>17.2. Pokud se některé ustanovení těchto obchodních podmínek stane neplatným nebo neúčinným, nemá tato skutečnost vliv na platnost ostatních ustanovení.</p>
+        <p>17.3. Tyto obchodní podmínky nabývají účinnosti dne <strong>11. 9. 2026</strong>.</p>
+    </div>
+
+    <footer class="terms-footer">
+        <div class="company-info">
+            <span><strong>Build & Trade Partners s.r.o.</strong></span>
+            <span><strong>+420 775 929 441</strong></span>
+            <span><strong>Ostrava a Moravskoslezský kraj</strong></span>
+        </div>
+        <p class="tagline">Nemovitosti v dobrých rukou.</p>
+    </footer>
+</section>
+
+<footer>
+    <div class="footer-copy">© 2026 Build & Trade Partners s.r.o. Všechna práva vyhrazena.</div>
+    <div class="footer-links">
+        <a href="podminky.html">Obchodní podmínky</a>
+        <a href="#">Ochrana osobních údajů</a>
+        <a href="#">Cookie nastavení</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
